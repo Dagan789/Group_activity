@@ -1,0 +1,7 @@
+# Group_activity
+
+The fast-forward merge is a merge that occurs when the branch being merged has no new commits that aren't already in the branch being merged into. In other words, it means that the branch can "fast forward" and be on the same commit as the branch being merged without creating a new merge commit.
+
+A merge conflict between develop and conflict branch would occur in a scenario where changes to the title of the same file were made on each of the branches and then pushed.
+
+Despite some changes of the same file on both branches, develop and conflict branch would not experience a merge conflict if the change was not made in the same line. 
